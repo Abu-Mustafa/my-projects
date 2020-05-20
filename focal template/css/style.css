@@ -1,0 +1,404 @@
+*{
+    margin: 0;
+}
+::-webkit-scrollbar{
+    width: 12px;
+}
+::-webkit-scrollbar-thumb{
+    height: 100px;
+    background: linear-gradient(transparent,#1bb690);
+    border-radius: 6px;
+}
+
+.header{
+    height:90vh;
+    width: 100%;
+    background-size:cover ;
+    background-image:url('image1.jpg') ;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.heading{
+    margin: auto;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    color: white;
+    transition-duration: 0.6s;
+    text-align: center;
+    height: 300px;
+}
+.heading hr{
+    background-color: white;
+    height:2px;
+    margin: 20px 0;
+}
+button{
+    padding: 15px;
+    background:none;
+    cursor: pointer;
+}
+.heading button{
+    color: white;
+    border: 2px solid white;
+    margin-top: 100px;
+    font-size: 17px;
+}
+.heading button:hover{
+background-color: white;
+color: black;
+transition-duration: 0.6s;
+}
+.points{
+    position: absolute;
+    right: 150px;
+    bottom: 75px;
+    display: flex;
+    flex-direction: column;
+}
+.points span{
+    width: 7px;
+    height: 7px;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.points span :hover{
+    background-color: white;
+    transition-duration: 0.6s;
+}
+.points .active{
+    background-color: white;
+}
+.nav-bar{
+    background-color: #252f31;
+    height: 62px;
+    display: flex;
+
+}
+
+.nav-bar .logo{
+    color: white;
+    font-size: 25px;
+    margin:19px auto auto 150px;
+    font-family: sans-serif;
+    font-weight: bold;
+    flex: 1;
+}
+.nav-bar .logo a{
+    text-decoration: none;
+    display: inline-block;
+}
+.nav-bar .logo span{
+    color: #1bb668;
+}
+.nav-bar .list{
+    margin-top: auto;
+    margin-bottom: auto;
+    flex: 3;
+}
+.nav-bar .list ul{
+    float: left;
+    list-style-type: none;
+}
+.nav-bar .list ul li{
+    display: inline-block;
+    margin-right: 30px;
+    font-size: 16px;
+}
+.nav-bar .list ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+}
+.nav-bar .list ul li a:hover{
+    color: #1bb668;
+}
+.first-element{
+    margin:50px auto;
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+}
+
+.first-element-s{
+    flex: 1;
+    margin: 30px;
+}
+h2 {
+    color: #485b59;
+    font-family: sans-serif;
+    margin-bottom: 25px;
+}
+.first-element-s h2{
+    font-size: xx-large;
+}
+p{
+    color: gray;
+    margin-bottom: 20px;
+    line-height: 25px;
+}
+.second-element{
+    margin: 0;
+    width: 100%;
+    height:600px;
+    background-color:#f2f2f2;
+    display: flex;
+    margin-bottom:50px ;
+}
+.second-element-s-1{
+    flex: 1;
+    background-image: url('image2.jpg');
+    background-size:cover;
+}
+.second-element-s-2{
+    flex: 2;
+    display: flex;
+    margin: 50px;
+    flex-direction: column;
+}
+.about-me{
+    flex: 1;
+}
+.skills{
+    display: flex;
+    flex-direction: column;
+}
+.skill{
+    flex: 1;
+    margin-right: 50px;
+    display: flex;
+}
+.skill div{
+    display: flex;
+}
+.skill section{
+    margin:30px;
+}
+.skill h2{
+    margin-bottom: 20px;
+    color: #252f31;
+}
+.skill i{
+    margin-top: 30px;
+}
+.third-element{
+    display: flex;
+    margin:50px 150px;
+}
+.third-element-s{
+    flex: 1;
+}
+.third-element-s:last-child{
+    margin:50px 0 0 100px;
+}
+.third-element-s button{
+    color: #1bb668;
+    border: 2px solid #1bb668;
+    margin-top: 30px;
+}
+.third-element-s button:hover{
+    background-color: #1bb668;
+    color: white;
+    transition-duration: 0.6s;
+}
+.third-element-s progress{
+    width: 400px;
+    margin-bottom: 25px;
+}
+h3{
+    color: #485b59;
+    font-family: sans-serif;
+    margin-bottom: 10px;
+}
+.progress{
+    height: 25px;
+    width: 400px;
+    border-radius: 10px;
+    background-color: lightgray;
+}
+.container{
+    height: 25px;
+    background-color: #1bb668;
+    border-radius: 10px;
+}
+.container{
+    text-align: right;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: white;
+}
+.fourth-element{
+    background-color: #f2f2f2;
+    text-align: center;
+}
+.fourth-element h2{
+    padding-top: 80px;
+}
+.fourth-element p{
+    margin: 0 150px 30px 150px;
+}
+.fourth-element button{
+    color: #1bb668;
+    border: 2px solid #1bb668;
+    margin-bottom: 50px;
+}
+.fourth-element button:hover{
+    background-color: #1bb668;
+    color: white;
+    transition-duration: 0.6s;
+}
+.fifth-element{
+    margin:50px 150px 20px 150px;
+}
+.fifth-element-e{
+    display: flex;
+}
+.fifth-element-1-s{
+    flex: 1;
+}
+.fifth-element-1-s:last-child{
+    margin: 50px 0 0 30px;
+}
+.special{
+    color: white;
+    background-color: #1bb668;
+    display: inline-block;
+    padding: 5px 10px;
+}
+.private{
+    margin: 20px 0 50px 0;
+}
+.sixth-element{
+    background-color: #f2f2f2;
+    text-align: center;
+    margin-bottom: 30px;
+    flex-direction: column;
+}
+.sixth-element h4{
+    margin: 0 150px 30px 150px;
+    padding-top: 80px;
+    color: gray;
+    margin-bottom: 30px;
+}
+.normal{
+    color: #485b59;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+.sixth-element ul{
+    margin:0 auto;
+}
+.sixth-element ul li{
+    display: inline-block;
+    color: black;
+}
+.sixth-element span{
+    width: 10px;
+    height: 10px;
+    border: 1px solid #1bb668;
+    border-radius: 50%;
+    display: inline-block;
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+.sixth-element .active{
+    background-color: #1bb668;
+}
+.sixth-element span:hover{
+    background-color: #1bb668;
+    transition-duration: 0.6s;
+}
+.seventh-element{
+    display: inline-flex;
+    text-align: center;
+    flex-direction: column;
+    margin: 30px 150px 50px 150px;
+}
+.photos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.photo{
+    height:300px;
+    width: 300px;
+    background-color: #252f31;
+    margin:20px;
+}
+.eighth-element{
+    background-color: #252f31;
+    display: flex;
+}
+.eighth-element-s-1{
+    flex: 1;
+    margin-left: 150px;
+}
+.eighth-element-s-2{
+    flex: 1;
+    margin-right: 150px;
+}
+.eighth-element h2{
+    color: white;
+    margin-top: 30px;
+}
+.eighth-element span{
+    color: white;
+}
+.eighth-element form{
+    margin: 90px 0 0 50px;
+}
+.eighth-element form input{
+    margin: 5px 0 30px 0;
+    border: none;
+    background-color: gray;
+    width: 100%;
+    height: 35px;
+}
+.eighth-element form textarea{
+    margin: 5px 0 30px 0;
+    border: none;
+    background-color: gray;
+    width: 100%;
+    height: 200px;
+}
+.eighth-element form input:last-child{
+    cursor: pointer;
+    width: 30%;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+.ninth-element{
+    background-color: black;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.ninth-element div{
+    display: flex;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.ninth-element span{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: #252f31;
+    margin-right:20px;
+    display: flex;
+    color: black;
+}
+
+.ninth-element p{
+    margin: 30px 20px 20px 0;
+    font-size: 12px;
+}
+.ninth-element span:hover{
+    color: white;
+}
+.ninth-element a{
+    text-decoration: none;
+}
