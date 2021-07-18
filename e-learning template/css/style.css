@@ -1,0 +1,280 @@
+/*Start header*/
+body{
+    height: 1500px;
+    overflow-x: hidden;
+}
+
+.header{
+   
+    height: 100vh;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.header div{
+    margin: 0;
+    padding: 0;
+}
+
+.header .info-side .menu-side{
+    height: 100vh;
+}
+
+.header .info-side .menu{
+    color: #FFF;
+    background-image: linear-gradient(#F2C94C,#F2994A);
+    height: 100vh;
+    width: 60%;
+    padding-top: 10px;
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header .info-side .menu .icons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header .info-side .menu .icon{
+    height: fit-content;
+    width: fit-content;
+    padding: 5px;
+    margin-bottom: 25px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    width: 50px;
+    height: 50px;
+    z-index: 2;
+}
+
+.header .info-side .menu .icon i{
+    color: #FFFFFF !important;
+}
+
+
+.search{
+    height: 50px;
+}
+
+.width{
+    width: 355px;
+    display: none;
+}
+
+.search .search-box{
+    width: 300px;
+    display: none;
+}
+
+.search .go-search-icon{
+    display: none !important;
+}
+
+.search .active{
+    display: flex !important;
+}
+
+.header .info-side .menu .icon .fa-share-alt{
+    padding: 2px;
+}
+
+.header .info-side .menu .icon:hover{
+    background-color: #F2994A;
+}
+
+.header .info-side .menu .icon:hover i{
+    color: #FFF !important;
+}
+
+.header .info-side .menu .active{
+    background-color: #F2994A;
+}
+
+.header .info-side .menu .active i{
+    color: #FFF !important;
+}
+
+.header .info-side .menu .icon .fas{
+    font-weight: 350;
+}
+
+.header .info-side .menu .icons .social-m-share{
+    height: 300px;
+    width: 50px;
+    background-color: white;
+    border-radius: 10px;
+    transform: translatey(-50px);
+    z-index: 1;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.header .info-side .menu .icons .social-m-share .icon{
+    margin-bottom: 0;
+}
+
+.header .info-side .menu .icons .social-m-share .icon .fab{
+    color: #F2C94C !important;
+    z-index: 3;
+}
+
+
+.header .info-side .logo{
+    padding-top: 20px;
+    cursor: pointer;
+}
+
+.header .info-side .logo img{
+    width: 120px;
+}
+
+.header .info-side h1{
+    margin: 75px 0 40px 0;
+    color: #F2C94C;
+    font-size: 48px;
+}
+
+.header .info-side p{
+    color: #F2C94C;
+    max-width: 400px;
+}
+
+.header .info-side .btn{
+    margin: 70px 10px 0;
+    border-color: #F2C94C;
+    color: #F2C94C;
+    background-color: #FFF;
+}
+
+.header .info-side .btn:hover{
+    background-color: #F2C94C;
+    color: #FFF;
+}
+
+.info-side .see-more{
+    width: 280px;
+    position: absolute;
+    bottom: 20px;
+    
+}
+
+.info-side .see-more p{
+    margin-bottom: 0;
+    color: #F2C94C;
+}
+.info-side .see-more .clickable{
+    width: fit-content;
+    text-decoration: none;
+    text-align: center;
+}
+.info-side .see-more .clickable i{
+    color: #F2C94C;
+    margin-top: -10px;
+}
+
+.image-side{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image-side .navigation{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    height: fit-content;
+    width: 160%;
+    margin-right: 150px;
+}
+
+.image-side .navigation .btn:first-child{
+    margin-right:25px;
+    margin-left: 25px;
+}
+
+.image-side .navigation .btn{
+    border-color: #F2C94C;
+    color: #F2C94C;
+    background-color: #FFF;
+}
+
+.image-side .navigation .btn:hover{
+    background-color: #F2C94C;
+    color: #FFF;
+}
+
+
+.image-side .nav{
+    margin-left: 100px;
+}
+
+.image-side .nav a:hover{
+    border: 1px solid #FFF;
+}
+
+.image-side .nav a{
+    color: white;
+    font-size: 24px;
+    padding: 5px;
+    margin-right: 20px;
+}
+
+.image-side .nav .navbar{
+    padding: 5px;
+}
+
+.image-side .nav .dropdown-nav .dropdown-toggle{
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.image-side .nav .dropdown-nav .dropdown-menu{
+    position: absolute;
+}
+
+.image-side .nav .dropdown-nav .dropdown-menu li a{
+    color: #F2C94C;
+    text-decoration: none;
+    border-color: transparent;
+    width: 100% !important;
+}
+
+.image-side .nav .dropdown-nav .dropdown-menu li:hover{
+    background-color: #F2C94C;
+}
+
+.image-side .nav .dropdown-nav .dropdown-menu li:hover a{
+    color: #FFF;
+}
+
+.image-side img{
+    width: 500px;
+}
+
+.image-side section{
+    position: absolute;
+    top: -30%;
+    width: 100%;
+    height: 150%;
+    background-image: linear-gradient(#F2C94C,#F2994A);
+    transform: rotate(37deg);
+    z-index: -1;
+}
+
+.image-side section h2{
+    color: #FFF;
+    position: absolute;
+    bottom: 50px;
+    right: 10px;
+    transform: rotate(-37deg);
+    font-size: 3em;
+}
+/*End header*/
