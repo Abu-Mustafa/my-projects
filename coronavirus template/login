@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" type="image/png" href="images/coronavirus.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/login.css">
+    <title>login</title>
+</head>
+<body>
+    
+
+    <div id="container" class="container">
+        <div class="row">
+            <div class="col-2">
+        <div id="tabs">
+            <div class="par">
+            <h1 id="lt" class="tabs" onclick="loginTabFun()">Log in</h1>
+        </div>
+            <!--<p id="rt" class="tabs" onclick="regTabFun()">Register</p>-->
+
+            <div id="clear"></div>
+        </div>
+    </div>
+    <div class="col-10">
+        <div id="cont">
+            <div id="login" class="comm">
+                
+                <input id="se" type="email" placeholder="username" required/>
+                <input id="sp" type="password" placeholder="password" required/>
+
+                <p class="ps-p" onclick="forTabFun()">Forget Password?</p>
+
+                <input type="submit" onclick="login()" value="Log in"/>
+
+            </div>
+            <div id="register" class="comm">
+                <h3>Register</h3>
+                
+                <!--<input id="re" type="email" placeholder="Email" required/>
+                <input id="rp" type="password" placeholder="Password" required/>
+                <input id="rrp" type="password" placeholder="Re write Password" required/>
+                <input type="submit" onclick="register()" value="Submit"/>-->
+
+            </div >
+            <div id="forgot" class="comm">
+            <h3>Forgot Password</h3>
+            <div>
+                <input id="fe" type="email" placeholder="Email" required/>
+                <input type="submit" onclick="forgot()" value="Submit"/>
+            </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+
+    <img src="images/Fighting against Coronavirus-pana.png" alt="Fighting">
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="js/nicescroll.js"></script>
+    <script src="js/login.js"></script>
+</body>
+</html>
