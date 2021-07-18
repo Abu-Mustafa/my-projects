@@ -1,0 +1,90 @@
+*{
+    font-family: 'Tajawal', sans-serif;
+}
+.side-menu{
+    top: -80vh;
+    left: -90vh;
+}
+
+.side-menu ul{
+    display: block ;
+    margin-left: 115% !important;
+    margin-top: 40% !important;
+}
+.side-menu ul li{
+    margin-top: 20px;
+    width: 140px;
+}
+.side-menu ul li a{
+    font-weight: 520;
+    width: 100%;
+}
+.img-side ul .active, .side-menu ul li:hover{
+    background-color: #74B978 !important;
+    border-radius: 10px;
+}
+
+.info-side .ar-lang-toggle{
+    width: 50px;
+    position: fixed;
+    right: 0;
+    top: 50%;
+}
+
+.info-side .ar-lang-toggle a{
+    display: block;
+    height: 75px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color:#74B978;
+    background-color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.info-side .ar-lang-toggle .active{
+    background-color: #74B978;
+    color: white;
+}
+
+.img-side i{
+    top: 25px;
+    left: 25px;
+}
+
+.img-side ul a{
+    color: white;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.info-side {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.info-side h1{
+    color: #74B978;
+    margin: 50px 75px 20px 0;
+    text-transform: capitalize;
+}
+
+.info-side > p{
+    color: #74B978;
+    text-transform: capitalize;
+    margin: 0 75px 20px 0;
+}
+.info-side .table{
+    width: 400px;
+    margin: 0 75px 20px 0;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.info-side .logo img{
+    width: 160px;
+}

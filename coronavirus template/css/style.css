@@ -1,0 +1,176 @@
+ html {
+    max-width: 100%;
+    overflow: hidden;
+}
+*{
+    font-family: 'Noto Sans JP', sans-serif;
+}
+.side-menu{
+    width: 150vh;
+    height: 150vh;
+    position: fixed;
+    top: -80vh;
+    right: -90vh;
+    border-radius: 50%;
+    display: none;
+    background-color: rgba(116, 185, 120, .7);
+    z-index: 2;
+}
+.header{
+    margin-left: 0;
+}
+
+.img-side{
+    height: 100vh;
+    padding: 0;
+}
+
+.img-side i{
+    position: fixed;
+    top: 25px;
+    right: 25px;
+    color: #fff;
+    display: none;
+    cursor: pointer;
+    background-color: #74b978;
+    width: 50px;
+    height: 50px;
+    border-radius:50% ;
+    z-index: 3;
+}
+
+.img-side img{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+    background-size: cover;
+}
+.img-side ul , .side-menu ul{
+    height: fit-content;
+} 
+
+.img-side ul a , .side-menu ul a{
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+}
+.side-menu ul{
+    display: block ;
+    margin-right: 60% !important;
+    margin-top: 35% !important;
+}
+.side-menu ul li{
+    margin-top: 20px;
+}
+.img-side ul .active, .side-menu ul li:hover{
+    background-color: #74B978 !important;
+    border-radius: 10px;
+}
+.info-side{
+    height: 100vh;
+    flex-direction: column;
+}
+
+.info-side .logo img{
+    width: 220px;
+    align-self: flex-start;
+}
+
+.info-side h1{
+    color: #74B978;
+    margin: 50px 0 20px 75px;
+    text-transform: capitalize;
+}
+
+.info-side > p{
+    color: #74B978;
+    text-transform: capitalize;
+    margin: 0 0 20px 75px;
+}
+.info-side .table{
+    width: 400px;
+    margin: 0 0 20px 75px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.info-side .table .table-head{
+    color: white;
+    background-color: #A4DEA8;
+}
+
+.info-side .table .recovered{
+    color: #74b978;
+}
+
+.info-side .table .deaths{
+    color: red;
+}
+
+.info-side .table .remained{
+    color: #FFD500;
+}
+.info-side .see-more{
+    width: 400px;
+    margin-left: 75px;
+}
+
+.info-side .see-more p{
+    margin-bottom: 0;
+    color: #74B978;
+}
+.info-side .see-more .clickable{
+    width: fit-content;
+    text-decoration: none;
+    text-align: center;
+}
+.info-side .see-more .clickable i{
+    color: #74B978;
+    margin-top: -10px;
+}
+.info-side .lang-toggle{
+    width: 50px;
+    position: fixed;
+    left: 0;
+}
+
+.info-side .lang-toggle a{
+    display: block;
+    height: 75px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color:#74B978;
+    background-color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.info-side .lang-toggle .active{
+    background-color: #74B978;
+    color: white;
+}
+
+.news {
+    margin-top: 35px;
+    width: 90%;
+}
+
+.news .info h2{
+    color: #74B978;
+    margin-top: 30px;
+}
+
+.news .info p{
+    margin-top: 20px;
+    color: gray;
+}
+
+.news .img img{
+    height: auto;
+    width: 70%;
+}
+
+
