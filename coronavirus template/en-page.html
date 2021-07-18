@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" type="image/png" href="images/coronavirus.png">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/en-media.css">
+    <title>fight together</title>
+</head>
+<body>
+  <div class="side-menu">
+    <ul class="nav mt-3 mr-4 nav-pills">
+      <li class="nav-item home">
+        <a class="nav-link" href="#">Home</a>
+      </li>
+      <li data-value="news" class="nav-item">
+        <a class="nav-link" href="#">Latest News</a>
+      </li>
+      <li data-value="home" class="nav-item">
+        <a class="nav-link" href="#">Contact Us</a>
+      </li>
+    </ul>
+  </div>
+
+    <div id="header" class="header container-fluid" style="height: 100vh;">
+        <div class="row">
+            <div class="col-lg-6 col-xs-12 order-lg-1 order-2 d-flex info-side">
+                <div class="logo">
+                  <img class="img-responsive" src="images/e-logo.png" alt="fighting together">
+                </div>
+                <h1>
+                  together we will git rid of this epidemic
+                </h1>
+                <p>
+                  we strive to keep our city free from the covid-19 virus
+                </p>
+                <table class="table text-center table-bordered">
+                  <thead>
+                    <tr class="table-head">
+                      <th scope="col" colspan="2">Covid-19 In Gaza</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr class="total">
+                      <td scope="row">Total cases</td>
+                      <td class="cases" data-main="total-before" data-input="total-after">72</td>
+                    </tr>
+                    <tr class="recovered">
+                      <td scope="row">Recovered</td>
+                      <td class="cases" data-main="recoverd-before" data-input="recoverd-after">41</td>
+                    </tr>
+                    <tr class="deaths">
+                      <td scope="row">Deaths</td>
+                      <td class="cases" data-main="deaths-before" data-input="deaths-after">1</td>
+                    </tr>
+                    <tr class="remained">
+                      <td scope="row">remained</td>
+                      <td class="cases">30</td>
+                    </tr>
+                  </tbody>
+                </table>
+
+                <div class="see-more d-flex justify-content-center">
+                  <a data-value="news" href="#" class="clickable">
+                    <p>see Latest news</p>
+                  <i class="fas fa-caret-down fa-2x"></i>
+                  </a>
+                </div>
+
+                <div class="lang-toggle">
+                  <a href="ar-page.html">ع</a>
+                  <a class="active" href="#">En</a>
+                </div>
+            </div>
+            <div class="col-lg-6 col-xs-12 order-lg-2 order-1 d-flex justify-content-end img-side">
+              <img class="img-responsive" src="images/en-header.png" alt="header">
+              <i class="fas fa-bars fa-2x"></i>
+                <ul class="nav mt-3 mr-4 nav-pills">
+                    <li class="nav-item home active">
+                      <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li data-value="news" class="nav-item">
+                      <a class="nav-link" href="#">Latest News</a>
+                    </li>
+                    <li data-value="home" class="nav-item">
+                      <a class="nav-link" href="#">Contact Us</a>
+                    </li>
+                  </ul>
+            </div>
+            
+        </div>
+    </div>
+
+    <div id="news" class="container-fluid news">
+      <div class="post">
+        <div class="row">
+          <div class="col-lg-6 col-xs-12 order-lg-1 order-2 info">
+            <h2>News</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem quae eaque non, ab nobis iste quidem quasi omnis cupiditate dolor doloremque corrupti dicta aspernatur itaque voluptates voluptas! In, quia eum.            </p>
+          </div>
+
+          <div class="col-lg-6 col-xs-12 order-lg-2 order-1 text-right img">
+            <img class="responsive-img" src="images/news1.png" alt="first news">
+          </div>
+        </div>
+        </div>
+        <div class="post">
+        <div class="row">
+
+          <div class="col-lg-6 col-xs-12 img">
+            <img class="responsive-img" src="images/news2.png" alt="first news">
+          </div>
+        
+          
+          <div class="col-lg-6 col-xs-12 info">
+            <h2>News</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem quae eaque non, ab nobis iste quidem quasi omnis cupiditate dolor doloremque corrupti dicta aspernatur itaque voluptates voluptas! In, quia eum.            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="js/nicescroll.js"></script>
+    <script src="js/design.js"></script>
+</body>
+</html>
