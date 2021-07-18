@@ -1,0 +1,153 @@
+* {
+    padding: 0;
+    margin: 0;
+    /*box-size:border-box;*/
+}
+body{
+    overflow: hidden;
+    background-image: url('../images/login-background.jpg');
+    background-size: cover;
+}
+#container {
+    width: 600px;
+    margin-top: 75px;
+    box-shadow: 10px 10px 5px grey;
+}
+#container .col-2, .col-10{
+    padding: 0;
+    height: 300px;
+}
+
+#tabs{
+    background-color: #A4DEA8;
+    width: 100% !important;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tabs {
+    display: table-cell;
+    width: 100%;
+    padding: 0;
+    height: 300px;
+    float: left;
+    text-align: center;
+    vertical-align: middle;
+    border-bottom: 0px;
+    position: relative;
+    font-size: 1.3em;
+    color: #ffffff;
+}
+.tabs:hover, p{
+    cursor: pointer;
+}
+
+#lt{
+    font-size: 48px;
+    transform: rotate(-90deg);
+    height: fit-content;
+    width: 150%;
+    margin: 0;
+    position: relative;
+    right: 30px;
+}
+#cont {
+    width: 400px;
+    height: 300px;
+    background-color: #FFFFFF;
+    margin-left: 50px;
+    
+}
+
+input{
+    display: block;
+    width: 100%;
+    height: 30px;
+    margin: 10px 13px;
+    padding: 10px;
+    font-size: 1.3em;
+    color: #707070;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #707070;
+}
+
+input[type="submit"] {
+    height: 50px;
+    width: 120%;
+    color: #FFFFFF;
+    background-color: #A4DEA8;
+    border: none;
+    border-radius: 30px;
+    margin: 0 auto;
+    cursor: pointer;
+    z-index: 2;
+}
+
+#clear {
+    clear: both;
+}
+
+.comm {
+    position: absolute;
+    visibility: hidden;
+}
+#login {
+    visibility: visible;
+}
+
+h3 {
+    display: table-cell;
+    vertical-align: middle;
+    padding: 10px 15px;
+    font-size: 1.5em;
+    color: #ffffff;
+}
+
+#forgot h3 {
+    display: block;
+    margin-top: 30px;
+    text-align: center;
+}
+
+#forgot div {
+    margin-top: 30px;
+}
+p {
+    text-align: right;
+    font-size: 0.8em;
+    color: #707070;
+    width: 100%;
+}
+
+
+#se{
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+#sp{
+    margin-bottom: 0;
+}
+
+.textbox{
+    height: 20px;
+}
+
+.ps-p{
+    margin-left: 13px;
+    margin-bottom: 50px;
+}
+.par{
+    width: 350px;
+    position: relative;
+}
+
+img{
+    position: absolute;
+    width: 400px;
+    bottom: -100px;
+    left: 50%;
+}
