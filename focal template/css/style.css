@@ -150,7 +150,7 @@ p{
 }
 .second-element-s-1{
     flex: 1;
-    background-image: url('image2.jpg');
+    background-image: url('../images/person.jpeg');
     background-size:cover;
 }
 .second-element-s-2{
