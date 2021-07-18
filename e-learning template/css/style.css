@@ -1,7 +1,7 @@
 /*Start header*/
 body{
     height: 1500px;
-    overflow-x: hidden;
+    overflow: hidden;
 }
 
 .header{
