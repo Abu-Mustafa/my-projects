@@ -1,0 +1,27 @@
+$(function(){
+
+        $('.menu .icon').click(function(){
+            $(this).toggleClass('active')
+        })
+
+        $('.search-icon').click(function(){
+            $('.search-icon .fas').toggleClass('fa-search').toggleClass('fa-times')
+        })
+
+        $('.search-box').click(function(){
+            $('.search-box').focus()
+        })
+
+
+        $('.share-icon').click(function(){
+            $('.social-m-share').slideToggle().css('display', 'flex')
+        })
+
+        $('.search-icon').click(function(){
+            $('.go-search-icon').css('display', 'flex').toggleClass('active')
+            $('.search-box').animate({width:'toggle'},350).css('display', 'block');
+            $('.width').animate({width:'toggle'},350).css('display', 'block');
+        })
+
+      
+})
